@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juwelier Benedict — Kollektion</title>
+    <meta
+      name="description"
+      content="Shop für Schmuck, Uhren und feine Accessoires von Juwelier Benedict."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="logo">Juwelier Benedict</div>
+      <nav class="nav">
+        <a href="kollektion.html">Kollektion</a>
+        <a href="index.html#story">Atelier</a>
+        <a href="index.html#galerie">Galerie</a>
+        <a href="index.html#kontakt">Kontakt</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Menü öffnen">☰</button>
+    </header>
+
+    <main>
+      <section class="collection-hero">
+        <div>
+          <p class="eyebrow">Kollektion</p>
+          <h1>Schmuck, Uhren und Objets für moderne Sammler.</h1>
+          <p class="lead">
+            Entdecken Sie kuratierte Stücke mit Charakter — von minimalistischen
+            Linien bis zu ikonischen Einzelstücken.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="#kollektion">Gesamte Kollektion ansehen</a>
+            <a class="button ghost" href="#kategorien">Nach Kategorie entdecken</a>
+          </div>
+        </div>
+        <div class="collection-hero-media">
+          <img
+            src="https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?auto=format&fit=crop&w=1400&q=80"
+            alt="Schmuckkollektion"
+          />
+        </div>
+      </section>
+
+      <section class="collection-switcher">
+        <a class="button ghost" href="#kollektion">Gesamte Kollektion</a>
+        <div class="scroll-tabs">
+          <button class="tab active">Alle</button>
+          <button class="tab">Schmuck</button>
+          <button class="tab">Uhren</button>
+          <button class="tab">Ringe</button>
+          <button class="tab">Ohrringe</button>
+          <button class="tab">Halsketten</button>
+          <button class="tab">Armbänder</button>
+          <button class="tab">Broschen</button>
+          <button class="tab">Objets d'Art</button>
+        </div>
+      </section>
+
+      <section class="featured-collections">
+        <div class="section-head">
+          <p class="eyebrow">Hervorgehobene Kollektionen</p>
+          <h2>Ausgewählte Linien mit besonderem Charakter.</h2>
+        </div>
+        <div class="featured-grid">
+          <article class="featured-card reveal">
+            <img
+              src="https://images.unsplash.com/photo-1512314889357-e157c22f938d?auto=format&fit=crop&w=1200&q=80"
+              alt="Klassische Ringe"
+            />
+            <div>
+              <h3>Klassische Ringe</h3>
+              <p>Feine Proportionen, zeitlose Steinfassungen.</p>
+              <a class="text-link" href="#">Entdecken</a>
+            </div>
+          </article>
+          <article class="featured-card reveal">
+            <img
+              src="https://images.unsplash.com/photo-1514228742587-6b1558a4f0a6?auto=format&fit=crop&w=1200&q=80"
+              alt="Vintage Uhren"
+            />
+            <div>
+              <h3>Vintage Uhren</h3>
+              <p>Mechanik mit Geschichte und perfektem Finish.</p>
+              <a class="text-link" href="#">Entdecken</a>
+            </div>
+          </article>
+          <article class="featured-card reveal">
+            <img
+              src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1200&q=80"
+              alt="Signature Halsketten"
+            />
+            <div>
+              <h3>Signature Halsketten</h3>
+              <p>Skulpturale Formen in Gold und Platin.</p>
+              <a class="text-link" href="#">Entdecken</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="collection-panel" id="kollektion">
+        <div class="section-head">
+          <p class="eyebrow">Suche</p>
+          <h2>Unsere Kollektion</h2>
+          <p>
+            Jedes Stück wurde aufgrund seiner außergewöhnlichen Qualität und
+            Ausstrahlung ausgewählt.
+          </p>
+        </div>
+        <div class="collection-tools">
+          <label class="search-field">
+            <span>Suche</span>
+            <input type="search" placeholder="Zum Beispiel: Ring, Uhr, Diamant" />
+          </label>
+          <label class="shop-filter">
+            <span>Sortierung</span>
+            <select>
+              <option>Beliebtheit</option>
+              <option>Neuheiten</option>
+              <option>Preis: niedrig → hoch</option>
+              <option>Preis: hoch → niedrig</option>
+            </select>
+          </label>
+        </div>
+      </section>
+
+      <section class="masonry-grid">
+        <article class="masonry-item reveal">
+          <img
+            src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=900&q=80"
+            alt="Lune Ring"
+          />
+          <div class="product-tile">
+            <h3>Lune Ring</h3>
+            <p>Weißgold · Pavé</p>
+            <div class="product-meta">
+              <span>€1.650</span>
+              <button class="button small">In den Warenkorb</button>
+            </div>
+          </div>
+        </article>
+        <article class="masonry-item reveal">
+          <img
+            src="https://images.unsplash.com/photo-1519683109079-d5f539e1542f?auto=format&fit=crop&w=900&q=80"
+            alt="Halo Armband"
+          />
+          <div class="product-tile">
+            <h3>Halo Armband</h3>
+            <p>Gelbgold · 0.8 ct</p>
+            <div class="product-meta">
+              <span>€2.980</span>
+              <button class="button small">In den Warenkorb</button>
+            </div>
+          </div>
+        </article>
+        <article class="masonry-item reveal">
+          <img
+            src="https://images.unsplash.com/photo-1516822003754-cca485356ecb?auto=format&fit=crop&w=900&q=80"
+            alt="Soléa Ohrringe"
+          />
+          <div class="product-tile">
+            <h3>Soléa Ohrringe</h3>
+            <p>Roségold · Satin</p>
+            <div class="product-meta">
+              <span>€1.890</span>
+              <button class="button small">In den Warenkorb</button>
+            </div>
+          </div>
+        </article>
+        <article class="masonry-item reveal">
+          <img
+            src="https://images.unsplash.com/photo-1512314889357-e157c22f938d?auto=format&fit=crop&w=900&q=80"
+            alt="Aurora Ring"
+          />
+          <div class="product-tile">
+            <h3>Aurora Ring</h3>
+            <p>18k Gold · Brillantbesatz</p>
+            <div class="product-meta">
+              <span>€2.450</span>
+              <button class="button small">In den Warenkorb</button>
+            </div>
+          </div>
+        </article>
+        <article class="masonry-item reveal">
+          <img
+            src="https://images.unsplash.com/photo-1514228742587-6b1558a4f0a6?auto=format&fit=crop&w=900&q=80"
+            alt="Noir Uhr"
+          />
+          <div class="product-tile">
+            <h3>Noir Uhr</h3>
+            <p>Automatik · Schwarzes Leder</p>
+            <div class="product-meta">
+              <span>€4.980</span>
+              <button class="button small">In den Warenkorb</button>
+            </div>
+          </div>
+        </article>
+        <article class="masonry-item reveal">
+          <img
+            src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=900&q=80"
+            alt="Nocturne Anhänger"
+          />
+          <div class="product-tile">
+            <h3>Nocturne Anhänger</h3>
+            <p>18k Gold · Saphir</p>
+            <div class="product-meta">
+              <span>€2.150</span>
+              <button class="button small">In den Warenkorb</button>
+            </div>
+          </div>
+        </article>
+        <article class="masonry-item reveal">
+          <img
+            src="https://images.unsplash.com/photo-1492707892479-7bc8d5a4ee93?auto=format&fit=crop&w=900&q=80"
+            alt="Atelier Objekt"
+          />
+          <div class="product-tile">
+            <h3>Atelier Objekt</h3>
+            <p>Objets · Limitierte Edition</p>
+            <div class="product-meta">
+              <span>€6.400</span>
+              <button class="button small">In den Warenkorb</button>
+            </div>
+          </div>
+        </article>
+        <article class="masonry-item reveal">
+          <img
+            src="https://images.unsplash.com/photo-1487412912498-0447578fcca8?auto=format&fit=crop&w=900&q=80"
+            alt="Linea Uhr"
+          />
+          <div class="product-tile">
+            <h3>Linea Uhr</h3>
+            <p>Quarz · Edelstahl</p>
+            <div class="product-meta">
+              <span>€1.280</span>
+              <button class="button small">In den Warenkorb</button>
+            </div>
+          </div>
+        </article>
+        <article class="masonry-item reveal">
+          <img
+            src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=900&q=80"
+            alt="Aira Halskette"
+          />
+          <div class="product-tile">
+            <h3>Aira Halskette</h3>
+            <p>Platin · Mattes Finish</p>
+            <div class="product-meta">
+              <span>€3.600</span>
+              <button class="button small">In den Warenkorb</button>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="explore-categories" id="kategorien">
+        <div class="section-head">
+          <p class="eyebrow">Nach Kategorie entdecken</p>
+          <h2>Finden Sie Ihr nächstes Stück.</h2>
+          <p>
+            Wechseln Sie schnell zwischen Schmuck, Uhren und Objekten — alles an
+            einem Ort.
+          </p>
+        </div>
+        <div class="category-grid">
+          <a class="category-pill" href="#">Ringe</a>
+          <a class="category-pill" href="#">Ohrringe</a>
+          <a class="category-pill" href="#">Halsketten</a>
+          <a class="category-pill" href="#">Armbänder</a>
+          <a class="category-pill" href="#">Broschen</a>
+          <a class="category-pill" href="#">Uhren</a>
+          <a class="category-pill" href="#">Objets d'Art</a>
+          <a class="category-pill" href="#">Alle Schmuckstücke</a>
+        </div>
+        <div class="section-cta">
+          <a class="button ghost" href="#kollektion">Kollektion erkunden</a>
+        </div>
+      </section>
+
+      <section class="newsletter">
+        <div>
+          <p class="eyebrow">Newsletter</p>
+          <h2>Neue Stücke zuerst sehen.</h2>
+          <p>
+            Einblicke, neue Ankünfte und exklusive Angebote direkt in Ihr
+            Postfach.
+          </p>
+        </div>
+        <form class="newsletter-form">
+          <input type="email" placeholder="E-Mail-Adresse" />
+          <button class="button" type="submit">Anmelden</button>
+        </form>
+      </section>
+
+      <section class="shop-cta">
+        <div>
+          <h2>Persönliche Beratung für Ihr neues Stück.</h2>
+          <p>Wir finden die perfekte Passform — online oder im Atelier.</p>
+        </div>
+        <a class="button" href="index.html#kontakt">Beratung buchen</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <h3>Juwelier Benedict</h3>
+        <p>Fine Jewelry Studio · Rostock</p>
+      </div>
+      <div class="footer-links">
+        <a href="#">Instagram</a>
+        <a href="#">Vimeo</a>
+        <a href="#">Lookbook PDF</a>
+        <a href="#">Impressum</a>
+      </div>
+      <p class="footer-note">© 2026 Juwelier Benedict. Alle Rechte vorbehalten.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
